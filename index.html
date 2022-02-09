@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' data: ; style-src * 'self' 'unsafe-inline'; media-src * " />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/mainAppStyles.css">
+        <script src="cordova.js"></script>
+        <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/main.js"></script>
+        <title>jQuery Mobile Project</title>
+    </head>
+    
+    <body>
+        <div data-role="page" id="first">
+            <div data-role="header" data-position="fixed">
+                <h3>2021 Shelby Mustang Super Snake</h3>
+            </div>
+            <div role="main" class="ui-content">
+                <p>The Shelby Super Snake is back for 2021 with a fresh look and more refinement. Powered by an 825 horsepower supercharged Ford 5.0L V8, the Super Snake launches from 0-60 in 3.5 seconds. With new suspension and brakes, it carves up the road course with ease. And yet it is so tractable, able to roll down the street like a king on its Shelby 20 inch one-piece forged aluminum wheels and high performance tires. Wide Body and suspension options are also available for the ultimate in style and handling.</p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="comment">Description</a></li>
+                    <li><a href="#second" data-icon="gear">Specs</a></li> 
+                    <li><a href="#third" data-icon="camera">Image</a></li>
+
+                </ul>
+            </div>
+                    <h3>Ford Motor Company</h3>
+            </div>
+        </div>
+    
+        
+        <!--End Page 1
+        Start Page 2 -->
+         <div data-role="page" id="second">
+            <div data-role="header" data-position="fixed">
+                <h3>2021 Shelby Mustang Super Snake</h3>
+            </div>
+            <div role="main" class="ui-content">
+    
+                <ul data-role="listview" data-divider-theme="b">
+                    <li data-role="list-divider">Drivetrain</li>
+                    <li>5.0L Coyote V-8</li>
+                    <li>Supercharger</li>
+                    <li>825-HP</li>
+                    <li>Borla Exhaust</li>
+                    <li>6 Speed Manual Transmission</li>
+                    <li data-role="list-divider">Performance</li>
+                    <li>0-60 MPH - 3.6 Seconds</li>
+                    <li>Quarter-Mile 12 Seconds</li>
+                </ul>        
+            </div>
+            <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#first" class="ui-btn-active ui-state-persist" data-icon="comment">Description</a></li>
+                    <li><a href="#" data-icon="gear">Specs</a></li> 
+                    <li><a href="#third" data-icon="camera">Image</a></li>
+
+                </ul>
+            </div>
+                    <h3>Ford Motor Company</h3>
+            </div>
+        </div>
+
+        
+<!--    End of Page 2-->
+<!--    Begin Page 3-->
+         <div data-role="page" id="third">
+            <div data-role="header" data-position="fixed">
+                <h3>2021 Shelby Mustang Super Snake</h3>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/2021ShelbySuperSnake.jpg" id="shelby"/>
+            <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#first" class="ui-btn-active ui-state-persist" data-icon="comment">Description</a></li>
+                    <li><a href="#second" data-icon="gear">Specs</a></li> 
+                    <li><a href="#" data-icon="camera">Image</a></li>
+
+                </ul>
+            </div>
+                    <h3>Ford Motor Company</h3>
+            </div>
+        </div>
+<!--End of Page 3-->
+    </body>
+</html>
